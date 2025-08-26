@@ -8,6 +8,27 @@
   	<b>👉 <a href="https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT/pulls">Feel Free To Contribute</a> 👈</b>
 </div>
 
+## Quick Start
+
+Scripts are provided to set up a small example [Telethon](https://github.com/LonamiWebs/Telethon) script that fetches messages from a channel.
+
+### Termux
+```bash
+./setup-termux.sh
+```
+
+### Ubuntu / Ubuntu Userland
+```bash
+./setup-ubuntu.sh
+```
+
+### Windows (PowerShell)
+```powershell
+./setup-windows.ps1
+```
+
+After running the appropriate setup script, set `TG_API_ID`, `TG_API_HASH`, and optionally `TG_CHANNEL` then run `telegram_osint_example.py`.
+
 ## 📑 Contents
 
 - [Search Engines](#-search-engines)
