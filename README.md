@@ -5,8 +5,17 @@
   </a>
 </div>
 <div align="center">
-  	<b>👉 <a href="https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT/pulls">Feel Free To Contribute</a> 👈</b>
+        <b>👉 <a href="https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT/pulls">Feel Free To Contribute</a> 👈</b>
 </div>
+
+## Script
+
+This repository includes a `telegram_osint.py` script that collects basic information
+and recent messages from a Telegram user, chat, or channel.
+
+1. Install dependencies: `pip install -r requirements.txt`
+2. Set environment variables `TELEGRAM_API_ID` and `TELEGRAM_API_HASH` with your Telegram API credentials.
+3. Run the script: `python telegram_osint.py --entity <username_or_id> [--limit N]`
 
 ## 📑 Contents
 
