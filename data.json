@@ -1,0 +1,10 @@
+{
+  "Search Engines": [
+    {"name": "Intelligence X", "url": "https://intelx.io/tools?tab=telegram"},
+    {"name": "Telegram Search Engine", "url": "https://xtea.io/ts_en.html#gsc.tab=0"}
+  ],
+  "Directories": [
+    {"name": "TelegramDB", "url": "https://telegramdb.org/"},
+    {"name": "Telemetrio", "url": "https://telemetr.io/en/channels"}
+  ]
+}

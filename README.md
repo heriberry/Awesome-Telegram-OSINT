@@ -128,3 +128,16 @@
 * [Telegram Network Visualization](https://medium.com/dataseries/telegram-network-visualization-tracing-forwards-and-mentions-f75746712fcf)
 * [How to Get Data From Telegram Using Python](https://betterprogramming.pub/how-to-get-data-from-telegram-82af55268a4b)
 * [Tips how to find private, hidden, personal groups and channels](https://telegra.ph/Tips-how-to-find-private-hidden-personal-groups-and-channels---TelegramPrivateChatLeaks-08-10)
+
+## Web UI
+
+A simple Flask-based web app is included to manage categories and links.
+
+### Installation
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+The application will be available at http://localhost:5000
