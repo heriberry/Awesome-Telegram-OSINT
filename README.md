@@ -16,6 +16,7 @@
 - [Tools](#-tools)
 - [Bots](#-bots)
 - [Resources](#-resources)
+- [Termux (Non-Root) Setup](#-termux-non-root-setup)
 
 ## [↑](#contents) Search Engines
 
@@ -128,3 +129,20 @@
 * [Telegram Network Visualization](https://medium.com/dataseries/telegram-network-visualization-tracing-forwards-and-mentions-f75746712fcf)
 * [How to Get Data From Telegram Using Python](https://betterprogramming.pub/how-to-get-data-from-telegram-82af55268a4b)
 * [Tips how to find private, hidden, personal groups and channels](https://telegra.ph/Tips-how-to-find-private-hidden-personal-groups-and-channels---TelegramPrivateChatLeaks-08-10)
+
+## [↑](#contents) Termux (Non-Root) Setup
+
+This repository can be accessed from Android using [Termux](https://termux.dev) without root.
+
+1. Download and run the setup script:
+
+   ```bash
+   curl -O https://raw.githubusercontent.com/ItIsMeCall911/Awesome-Telegram-OSINT/main/termux_setup.sh
+   bash termux_setup.sh
+   ```
+
+2. Open the list of resources:
+
+   ```bash
+   less "$HOME/Awesome-Telegram-OSINT/README.md"
+   ```
