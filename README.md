@@ -94,6 +94,7 @@
 
 ## [↑](#contents) Tools
 
+* [Mega50 OSINT Search Tool](./osint_main.py) – simple Python script aggregating 50 search engines.
 * [Telegram Index](https://github.com/odysseusmax/tg-index)
 * [Save Telegram Chat History](https://github.com/pigpagnet/save-telegram-chat-history)
 * [TGViewer](https://github.com/TGViewer/TGViewer.github.io)
