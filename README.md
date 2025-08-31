@@ -103,6 +103,7 @@ and recent messages from a Telegram user, chat, or channel.
 
 ## [↑](#contents) Tools
 
+* [osint_main.py](osint_tool/osint_main.py) - Multi-engine OSINT search with CSV, JSON, JSONL, SQLite, and HTML exports
 * [Telegram Index](https://github.com/odysseusmax/tg-index)
 * [Save Telegram Chat History](https://github.com/pigpagnet/save-telegram-chat-history)
 * [TGViewer](https://github.com/TGViewer/TGViewer.github.io)

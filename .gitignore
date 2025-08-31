@@ -1,0 +1,6 @@
+# Ignore exports from osint_tool
+osint_tool/exports/
+
+# Python cache
+__pycache__/
+osint_tool/__pycache__/
