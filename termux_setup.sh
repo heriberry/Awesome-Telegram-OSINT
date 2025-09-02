@@ -9,11 +9,12 @@ fi
 pkg update -y && pkg upgrade -y
 pkg install -y git python nodejs
 
+REPO_URL="https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT.git"
 REPO_DIR="$HOME/Awesome-Telegram-OSINT"
 if [ -d "$REPO_DIR/.git" ]; then
   git -C "$REPO_DIR" pull --ff-only
 else
-  git clone https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT.git "$REPO_DIR"
+  git clone "$REPO_URL" "$REPO_DIR"
 fi
 
 echo "Repository ready at $REPO_DIR"
